@@ -17,3 +17,8 @@ git commit -m "3rd message"
 git branch -M master
 git remote add origi https://github.com/Monika-1733/Banking-application.git
 git push -u origi master
+git push origin main
+git pull origin main
+git commit -m "Merge master into main"
+git push origin main
+git reset --merge
