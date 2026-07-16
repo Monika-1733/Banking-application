@@ -23,8 +23,8 @@ git commit -m "Merge master into main"
 git push origin main
 git reset --merge
 mkdir dir-linux
-echo > demo1.txt
+echo > demo1.txt \\creats a new list
 dir
 echo > demo2.txt
-echo >> demo1.txt "hello"
+echo >> demo1.txt "hello" \\appends list
 echo >> demo2.txt "Hii Monika"
