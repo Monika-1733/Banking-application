@@ -1,1 +1,19 @@
 hello
+cd C:\Users\MonikaM\Desktop\IBM\GIT
+git init
+git add "file1.txt"
+git commit -m "1st message"
+git status
+git rm "First text.txt" //delete the file
+git branch -M main
+git remote add origin https://github.com/Monika-1733/Banking-application.git
+git push -u origin master
+git add "file2.txt"
+git commit -m "2nd message"
+git push -u origin main
+git checkout -B branch2
+git add "file3.txt"
+git commit -m "3rd message"
+git branch -M master
+git remote add origi https://github.com/Monika-1733/Banking-application.git
+git push -u origi master
